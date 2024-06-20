@@ -2,7 +2,8 @@
   "name": "@sse-auth/all",
   "version": "1.0.0",
   "description": "All the SSE Auth Packages in One",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/interface/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -17,8 +18,10 @@
   },
   "homepage": "https://github.com/sse-auth/all#readme",
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "crypto-js": "^4.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tslib": "^2.6.3",
